@@ -1,0 +1,23 @@
+{
+  "button": {
+    "save": "Save",
+    "review": "Review"
+  },
+  "dialog": {
+    "title": "Warning!",
+    "text": "Your changes have been successfully saved. Continue working or contact support if you have any questions. We are always happy to help!",
+    "button": {
+      "close": "Close"
+    } 
+  },
+  "googleReviewTitle": "Our customers' reviews on Google",
+  "reviews": "reviews",
+  "notify": {
+    "success": {
+      "reviews": "Feedback successfully received"
+    },
+    "error": {
+      "default": "An error occurred"
+    }
+  }
+}

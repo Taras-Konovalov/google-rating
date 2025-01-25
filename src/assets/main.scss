@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/formular');
+
+html, body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Formular', sans-serif;
+  font-weight: 400;
+  background-color: #F2F3FA;
+}
+
+$white: #ffffff;
+$black: #394155;
+$gray: #798595; 
+$yellow: #FCC141;
+$green: #36A8A0;
+
+$gradient-button-1: linear-gradient(90deg, #E6F7F5 0%, #F8FCFC 100%);
+
+$gradient-button-2: linear-gradient(90.66deg, #3CB9A0 0.57%, #1786AC 99.43%);
+
+$gradient-button-border: linear-gradient(90deg, #AACEDB 0%, #BEE2E0 100%);
+$box-shadow: 0px 4px 15px 0px #0000000D;
+
+.container {
+  max-width: 1458px;
+  margin: 0 auto;
+  width: 100%;
+
+  @media (max-width: 1600px) {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+
+  @media (max-width: 576px) {
+    max-width: 100%;
+    padding: 0 30px;
+  }
+}
+
+.text-body-large {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  @media (max-width: 1199px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+.text-body-medium {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+ 
+.text-body-small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.text-body-h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+
+  @media (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.black {
+  color: $black;
+}
+
+.gray {
+  color: $gray;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-family: 'Formular', sans-serif;
+}

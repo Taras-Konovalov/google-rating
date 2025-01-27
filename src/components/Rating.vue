@@ -43,6 +43,7 @@ const isOpenDialog = ref(false)
           </span>
         <v-rating
           :modelValue="rating.grade"
+          readonly
           half-increments
           size="30"
           color="#FCC141"
